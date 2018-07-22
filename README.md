@@ -1,0 +1,2 @@
+# 6DOF_PoseEstimation
+Kinect2.0实现估算长方体物体三维姿态并实时显示
