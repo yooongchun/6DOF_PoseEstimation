@@ -8,9 +8,12 @@ Ubuntu16.04、Ubuntu17.10下编译安装PCL1.8
 
 - STEP 1 :安装依赖库
   - 方法一 使用官方预编译版本安装
-        sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl  
-        sudo apt-get update  
-        sudo apt-get install libpcl-dev
+  ```
+  sudo add-apt-repository ppa:v-launchpad-jochen-sprickerhof-de/pcl  
+  sudo apt-get update  
+  sudo apt-get install libpcl-dev
+  ```
+  
   - 方法二 自己编译（推荐）
     将以下内容保存为install_pcl_dependences.sh ，使用在ubuntu 命令行终端输入sudo sh install_pcl_dependences.sh 即可进行安装，在下载安装依赖库过程中会提示是否安装，都输入y 
         sudo apt-get update  
